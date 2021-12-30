@@ -1,0 +1,531 @@
+2021-12-01 16:08:31,088 - ner.py[line:106] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-01 16:08:31,112 - utils.py[line:71] - INFO: loading labels info from train file and dump in data/output
+2021-12-01 16:08:34,662 - ner.py[line:206] - INFO: ***** Running training *****
+2021-12-01 16:08:34,662 - ner.py[line:207] - INFO:   Num examples = 222
+2021-12-01 16:08:34,662 - ner.py[line:208] - INFO:   Num Epochs = 40
+2021-12-01 16:08:34,662 - ner.py[line:209] - INFO:   Total optimization steps = 280
+2021-12-01 16:09:00,736 - ner.py[line:106] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-01 16:09:00,741 - utils.py[line:71] - INFO: loading labels info from train file and dump in data/output
+2021-12-01 16:09:05,020 - ner.py[line:206] - INFO: ***** Running training *****
+2021-12-01 16:09:05,020 - ner.py[line:207] - INFO:   Num examples = 222
+2021-12-01 16:09:05,021 - ner.py[line:208] - INFO:   Num Epochs = 40
+2021-12-01 16:09:05,021 - ner.py[line:209] - INFO:   Total optimization steps = 280
+2021-12-01 16:12:09,801 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:12:24,038 - ner.py[line:253] - INFO: ----------the best f1 is 0---------
+2021-12-01 16:12:25,171 - ner.py[line:263] - INFO: epoch 0, train loss: 14693.479614257812
+2021-12-01 16:16:08,060 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:16:17,521 - ner.py[line:263] - INFO: epoch 1, train loss: 20779.06396484375
+2021-12-01 16:19:33,085 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:19:43,737 - ner.py[line:263] - INFO: epoch 2, train loss: 26042.707763671875
+2021-12-01 16:23:09,411 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:23:20,979 - ner.py[line:263] - INFO: epoch 3, train loss: 31051.710998535156
+2021-12-01 16:26:49,705 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:26:59,393 - ner.py[line:263] - INFO: epoch 4, train loss: 35545.00021362305
+2021-12-01 16:30:11,703 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:30:23,112 - ner.py[line:253] - INFO: ----------the best f1 is 0.029850746268656716---------
+2021-12-01 16:30:24,038 - ner.py[line:263] - INFO: epoch 5, train loss: 39268.62469482422
+2021-12-01 16:33:29,913 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 16:33:39,271 - ner.py[line:253] - INFO: ----------the best f1 is 0.09195402298850575---------
+2021-12-01 16:33:40,054 - ner.py[line:263] - INFO: epoch 6, train loss: 42160.38720703125
+2021-12-01 16:36:46,573 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:18:04,681 - ner.py[line:106] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-01 18:18:04,701 - utils.py[line:71] - INFO: loading labels info from train file and dump in data/output
+2021-12-01 18:18:11,571 - ner.py[line:206] - INFO: ***** Running training *****
+2021-12-01 18:18:11,571 - ner.py[line:207] - INFO:   Num examples = 222
+2021-12-01 18:18:11,571 - ner.py[line:208] - INFO:   Num Epochs = 40
+2021-12-01 18:18:11,572 - ner.py[line:209] - INFO:   Total optimization steps = 280
+2021-12-01 18:21:52,429 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:22:04,185 - ner.py[line:253] - INFO: ----------the best f1 is 0---------
+2021-12-01 18:22:05,382 - ner.py[line:263] - INFO: epoch 0, train loss: 13517.6708984375
+2021-12-01 18:25:36,961 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:25:48,606 - ner.py[line:263] - INFO: epoch 1, train loss: 19254.337036132812
+2021-12-01 18:29:37,297 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:29:50,147 - ner.py[line:263] - INFO: epoch 2, train loss: 24591.76593017578
+2021-12-01 18:33:22,212 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:33:34,889 - ner.py[line:263] - INFO: epoch 3, train loss: 29878.434448242188
+2021-12-01 18:37:10,643 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:37:22,285 - ner.py[line:263] - INFO: epoch 4, train loss: 35047.11755371094
+2021-12-01 18:40:55,327 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:41:08,228 - ner.py[line:263] - INFO: epoch 5, train loss: 39860.591247558594
+2021-12-01 18:44:50,065 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:45:05,240 - ner.py[line:263] - INFO: epoch 6, train loss: 44139.53253173828
+2021-12-01 18:49:20,496 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:49:35,544 - ner.py[line:263] - INFO: epoch 7, train loss: 47520.43795776367
+2021-12-01 18:53:50,593 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:54:06,146 - ner.py[line:253] - INFO: ----------the best f1 is 0.23529411764705882---------
+2021-12-01 18:54:07,543 - ner.py[line:263] - INFO: epoch 8, train loss: 50285.07011413574
+2021-12-01 18:58:12,456 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 18:58:27,293 - ner.py[line:263] - INFO: epoch 9, train loss: 52605.31153869629
+2021-12-01 19:02:33,821 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:02:47,781 - ner.py[line:253] - INFO: ----------the best f1 is 0.35185185185185186---------
+2021-12-01 19:02:49,218 - ner.py[line:263] - INFO: epoch 10, train loss: 54653.221603393555
+2021-12-01 19:06:58,748 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:07:11,487 - ner.py[line:253] - INFO: ----------the best f1 is 0.43410852713178294---------
+2021-12-01 19:07:12,751 - ner.py[line:263] - INFO: epoch 11, train loss: 56442.57014465332
+2021-12-01 19:10:43,602 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:10:55,743 - ner.py[line:253] - INFO: ----------the best f1 is 0.5573770491803278---------
+2021-12-01 19:10:56,990 - ner.py[line:263] - INFO: epoch 12, train loss: 58063.32113647461
+2021-12-01 19:14:32,006 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:14:43,765 - ner.py[line:253] - INFO: ----------the best f1 is 0.59375---------
+2021-12-01 19:14:44,776 - ner.py[line:263] - INFO: epoch 13, train loss: 59522.04133605957
+2021-12-01 19:18:17,074 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:18:29,679 - ner.py[line:253] - INFO: ----------the best f1 is 0.6031746031746031---------
+2021-12-01 19:18:30,897 - ner.py[line:263] - INFO: epoch 14, train loss: 60847.23294067383
+2021-12-01 19:22:24,363 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:22:39,179 - ner.py[line:253] - INFO: ----------the best f1 is 0.6393442622950819---------
+2021-12-01 19:22:40,651 - ner.py[line:263] - INFO: epoch 15, train loss: 62066.96961212158
+2021-12-01 19:26:52,759 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:27:08,105 - ner.py[line:253] - INFO: ----------the best f1 is 0.656---------
+2021-12-01 19:27:09,593 - ner.py[line:263] - INFO: epoch 16, train loss: 63186.0086517334
+2021-12-01 19:31:23,976 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:31:39,247 - ner.py[line:253] - INFO: ----------the best f1 is 0.7377049180327869---------
+2021-12-01 19:31:40,701 - ner.py[line:263] - INFO: epoch 17, train loss: 64235.77549743652
+2021-12-01 19:35:51,613 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:36:06,326 - ner.py[line:263] - INFO: epoch 18, train loss: 65221.06982421875
+2021-12-01 19:40:01,042 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:40:13,932 - ner.py[line:263] - INFO: epoch 19, train loss: 66155.59772491455
+2021-12-01 19:43:46,181 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:43:58,726 - ner.py[line:263] - INFO: epoch 20, train loss: 67040.98314666748
+2021-12-01 19:47:33,382 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:47:45,066 - ner.py[line:253] - INFO: ----------the best f1 is 0.7419354838709677---------
+2021-12-01 19:47:46,102 - ner.py[line:263] - INFO: epoch 21, train loss: 67894.1675491333
+2021-12-01 19:51:21,664 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:51:34,545 - ner.py[line:253] - INFO: ----------the best f1 is 0.7580645161290323---------
+2021-12-01 19:51:35,741 - ner.py[line:263] - INFO: epoch 22, train loss: 68707.82829284668
+2021-12-01 19:55:06,633 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:55:19,593 - ner.py[line:263] - INFO: epoch 23, train loss: 69497.44055175781
+2021-12-01 19:58:57,607 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-01 19:59:09,373 - ner.py[line:263] - INFO: epoch 24, train loss: 70255.92501068115
+2021-12-02 10:13:49,946 - ner.py[line:106] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 10:13:49,954 - utils.py[line:71] - INFO: loading labels info from train file and dump in data/output
+2021-12-02 10:15:54,378 - ner.py[line:106] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 10:15:54,383 - utils.py[line:71] - INFO: loading labels info from train file and dump in data/output
+2021-12-02 10:15:55,359 - ner.py[line:206] - INFO: ***** Running training *****
+2021-12-02 10:15:55,359 - ner.py[line:207] - INFO:   Num examples = 222
+2021-12-02 10:15:55,359 - ner.py[line:208] - INFO:   Num Epochs = 40
+2021-12-02 10:15:55,359 - ner.py[line:209] - INFO:   Total optimization steps = 280
+2021-12-02 10:18:15,212 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:18:19,514 - ner.py[line:253] - INFO: ----------the best f1 is 0---------
+2021-12-02 10:18:19,753 - ner.py[line:263] - INFO: epoch 0, train loss: 13534.228271484375
+2021-12-02 10:21:34,352 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:21:38,997 - ner.py[line:263] - INFO: epoch 1, train loss: 20242.235290527344
+2021-12-02 10:24:07,861 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:24:13,274 - ner.py[line:263] - INFO: epoch 2, train loss: 25839.077087402344
+2021-12-02 10:26:34,960 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:26:39,748 - ner.py[line:263] - INFO: epoch 3, train loss: 31252.908569335938
+2021-12-02 10:28:57,637 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:29:02,200 - ner.py[line:263] - INFO: epoch 4, train loss: 36581.106048583984
+2021-12-02 10:31:19,327 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:31:24,980 - ner.py[line:263] - INFO: epoch 5, train loss: 41696.57571411133
+2021-12-02 10:33:37,394 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:33:41,837 - ner.py[line:263] - INFO: epoch 6, train loss: 46467.557373046875
+2021-12-02 10:36:00,925 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:36:05,350 - ner.py[line:263] - INFO: epoch 7, train loss: 51029.783447265625
+2021-12-02 10:38:26,123 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:38:30,509 - ner.py[line:263] - INFO: epoch 8, train loss: 55432.25744628906
+2021-12-02 10:41:11,622 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:41:16,043 - ner.py[line:263] - INFO: epoch 9, train loss: 59595.767517089844
+2021-12-02 10:43:31,389 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:43:36,935 - ner.py[line:263] - INFO: epoch 10, train loss: 63234.22756958008
+2021-12-02 10:45:56,494 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:46:01,893 - ner.py[line:253] - INFO: ----------the best f1 is 0.058823529411764705---------
+2021-12-02 10:46:02,141 - ner.py[line:263] - INFO: epoch 11, train loss: 66213.78387451172
+2021-12-02 10:48:25,254 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:48:31,112 - ner.py[line:253] - INFO: ----------the best f1 is 0.15929203539823006---------
+2021-12-02 10:48:31,348 - ner.py[line:263] - INFO: epoch 12, train loss: 68702.82489013672
+2021-12-02 10:50:50,227 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:50:56,033 - ner.py[line:253] - INFO: ----------the best f1 is 0.26229508196721313---------
+2021-12-02 10:50:56,268 - ner.py[line:263] - INFO: epoch 13, train loss: 70942.00595092773
+2021-12-02 10:53:14,325 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:53:19,386 - ner.py[line:253] - INFO: ----------the best f1 is 0.4---------
+2021-12-02 10:53:19,621 - ner.py[line:263] - INFO: epoch 14, train loss: 72959.55215454102
+2021-12-02 10:55:38,832 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:55:44,751 - ner.py[line:253] - INFO: ----------the best f1 is 0.4262295081967213---------
+2021-12-02 10:55:44,985 - ner.py[line:263] - INFO: epoch 15, train loss: 74811.91372680664
+2021-12-02 10:58:00,904 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 10:58:06,331 - ner.py[line:253] - INFO: ----------the best f1 is 0.4496124031007752---------
+2021-12-02 10:58:06,575 - ner.py[line:263] - INFO: epoch 16, train loss: 76535.05851745605
+2021-12-02 11:00:21,438 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:00:25,786 - ner.py[line:253] - INFO: ----------the best f1 is 0.49599999999999994---------
+2021-12-02 11:00:26,018 - ner.py[line:263] - INFO: epoch 17, train loss: 78127.99900817871
+2021-12-02 11:02:45,718 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:02:50,479 - ner.py[line:253] - INFO: ----------the best f1 is 0.512---------
+2021-12-02 11:02:50,713 - ner.py[line:263] - INFO: epoch 18, train loss: 79615.52160644531
+2021-12-02 11:05:09,183 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:05:13,959 - ner.py[line:263] - INFO: epoch 19, train loss: 81028.73313140869
+2021-12-02 11:07:32,811 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:07:37,397 - ner.py[line:253] - INFO: ----------the best f1 is 0.5365853658536585---------
+2021-12-02 11:07:37,634 - ner.py[line:263] - INFO: epoch 20, train loss: 82363.28876495361
+2021-12-02 11:09:52,483 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:09:56,863 - ner.py[line:253] - INFO: ----------the best f1 is 0.5396825396825397---------
+2021-12-02 11:09:57,122 - ner.py[line:263] - INFO: epoch 21, train loss: 83651.23865509033
+2021-12-02 11:13:28,033 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:13:35,530 - ner.py[line:263] - INFO: epoch 22, train loss: 84884.57981109619
+2021-12-02 11:16:39,512 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:16:45,567 - ner.py[line:263] - INFO: epoch 23, train loss: 86063.4389038086
+2021-12-02 11:20:02,426 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:20:09,854 - ner.py[line:263] - INFO: epoch 24, train loss: 87201.97401428223
+2021-12-02 11:23:16,728 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:23:24,576 - ner.py[line:253] - INFO: ----------the best f1 is 0.5555555555555556---------
+2021-12-02 11:23:24,837 - ner.py[line:263] - INFO: epoch 25, train loss: 88307.13737487793
+2021-12-02 11:26:33,083 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:26:39,397 - ner.py[line:253] - INFO: ----------the best f1 is 0.5826771653543307---------
+2021-12-02 11:26:39,637 - ner.py[line:263] - INFO: epoch 26, train loss: 89375.51385498047
+2021-12-02 11:29:47,212 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:29:54,852 - ner.py[line:253] - INFO: ----------the best f1 is 0.5984251968503936---------
+2021-12-02 11:29:55,100 - ner.py[line:263] - INFO: epoch 27, train loss: 90424.99210357666
+2021-12-02 11:33:04,558 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:33:12,535 - ner.py[line:263] - INFO: epoch 28, train loss: 91440.017578125
+2021-12-02 11:36:32,975 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:36:41,834 - ner.py[line:253] - INFO: ----------the best f1 is 0.608---------
+2021-12-02 11:36:42,080 - ner.py[line:263] - INFO: epoch 29, train loss: 92431.96124267578
+2021-12-02 11:39:49,824 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:39:56,269 - ner.py[line:253] - INFO: ----------the best f1 is 0.6240000000000001---------
+2021-12-02 11:39:56,516 - ner.py[line:263] - INFO: epoch 30, train loss: 93401.37757110596
+2021-12-02 11:43:05,414 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:43:12,780 - ner.py[line:263] - INFO: epoch 31, train loss: 94352.8350906372
+2021-12-02 11:46:19,752 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:46:26,885 - ner.py[line:263] - INFO: epoch 32, train loss: 95291.40245056152
+2021-12-02 11:49:40,016 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:49:46,145 - ner.py[line:263] - INFO: epoch 33, train loss: 96219.75874328613
+2021-12-02 11:52:50,082 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:52:55,890 - ner.py[line:263] - INFO: epoch 34, train loss: 97134.1576385498
+2021-12-02 11:56:15,194 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 11:56:24,512 - ner.py[line:263] - INFO: epoch 35, train loss: 98037.86954498291
+2021-12-02 12:00:05,536 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 12:00:11,349 - ner.py[line:263] - INFO: epoch 36, train loss: 98933.34131622314
+2021-12-02 12:17:52,417 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 12:17:58,278 - ner.py[line:263] - INFO: epoch 37, train loss: 99829.95086669922
+2021-12-02 12:21:00,021 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 12:21:05,987 - ner.py[line:263] - INFO: epoch 38, train loss: 100721.9867553711
+2021-12-02 12:24:10,426 - ner.py[line:49] - INFO: ***** Running eval *****
+2021-12-02 12:24:16,387 - ner.py[line:263] - INFO: epoch 39, train loss: 101605.74202728271
+2021-12-02 12:24:17,110 - ner.py[line:286] - INFO: ***** Running test *****
+2021-12-02 12:24:17,110 - ner.py[line:287] - INFO:  Num examples = 44
+2021-12-02 12:24:17,110 - ner.py[line:288] - INFO:  Batch size = 8
+2021-12-02 12:28:39,919 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 12:28:39,927 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 12:42:28,837 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 12:42:28,845 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 12:52:16,402 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 12:52:16,907 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 12:52:17,409 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 12:59:03,169 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 12:59:03,174 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 12:59:03,849 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 12:59:03,849 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 12:59:03,849 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 13:00:39,486 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:00:39,495 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:00:51,865 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 13:00:51,865 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 13:00:51,866 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 13:01:59,779 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:01:59,788 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:02:00,572 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 13:02:00,573 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 13:02:00,573 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 13:05:22,821 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:05:22,829 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:06:24,022 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:06:24,031 - utils.py[line:78] - INFO: loading labels info from train file and dump in data/output
+2021-12-02 13:06:35,700 - ner.py[line:216] - INFO: ***** Running training *****
+2021-12-02 13:06:35,701 - ner.py[line:217] - INFO:   Num examples = 222
+2021-12-02 13:06:35,701 - ner.py[line:218] - INFO:   Num Epochs = 40
+2021-12-02 13:06:35,701 - ner.py[line:219] - INFO:   Total optimization steps = 280
+2021-12-02 13:12:25,690 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:19:49,504 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:19:49,512 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:19:50,239 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 13:19:50,239 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 13:19:50,239 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 13:23:24,461 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:23:24,466 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:23:25,126 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 13:23:25,126 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 13:23:25,126 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 13:26:15,236 - ner.py[line:116] - INFO: device: cpu n_gpu: 0, distributed training: False, 16-bits training: False
+2021-12-02 13:26:15,241 - utils.py[line:78] - INFO: loading labels info from train file and dump in data/output
+2021-12-02 13:26:16,256 - ner.py[line:216] - INFO: ***** Running training *****
+2021-12-02 13:26:16,256 - ner.py[line:217] - INFO:   Num examples = 222
+2021-12-02 13:26:16,256 - ner.py[line:218] - INFO:   Num Epochs = 40
+2021-12-02 13:26:16,257 - ner.py[line:219] - INFO:   Total optimization steps = 280
+2021-12-02 13:29:52,731 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:29:58,763 - ner.py[line:263] - INFO: ----------the best f1 is 0---------
+2021-12-02 13:29:59,009 - ner.py[line:273] - INFO: epoch 0, train loss: 15631.707397460938
+2021-12-02 13:33:44,590 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:33:52,548 - ner.py[line:273] - INFO: epoch 1, train loss: 22999.855224609375
+2021-12-02 13:37:39,690 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:37:48,319 - ner.py[line:273] - INFO: epoch 2, train loss: 28652.770080566406
+2021-12-02 13:41:32,667 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:41:43,531 - ner.py[line:273] - INFO: epoch 3, train loss: 34004.99038696289
+2021-12-02 13:45:26,793 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:45:33,607 - ner.py[line:273] - INFO: epoch 4, train loss: 39119.12789916992
+2021-12-02 13:49:08,850 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:49:15,910 - ner.py[line:273] - INFO: epoch 5, train loss: 43981.37478637695
+2021-12-02 13:51:19,096 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 13:51:19,713 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 13:51:20,322 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 13:51:38,592 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:52:56,693 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:53:04,386 - ner.py[line:273] - INFO: epoch 6, train loss: 48601.88748168945
+2021-12-02 13:53:46,997 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 13:53:47,000 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 13:53:47,001 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 13:53:49,825 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:56:05,985 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 13:56:05,986 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 13:56:05,986 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 13:56:07,360 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 13:56:53,056 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 13:57:00,235 - ner.py[line:273] - INFO: epoch 7, train loss: 53040.85330200195
+2021-12-02 13:59:38,616 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 13:59:38,617 - application.py[line:90] - INFO:  Num examples = 2
+2021-12-02 13:59:38,617 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 13:59:38,620 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 14:00:38,694 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:00:45,180 - ner.py[line:273] - INFO: epoch 8, train loss: 57277.976959228516
+2021-12-02 14:04:00,943 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:04:07,886 - ner.py[line:263] - INFO: ----------the best f1 is 0.02816901408450704---------
+2021-12-02 14:04:08,130 - ner.py[line:273] - INFO: epoch 9, train loss: 61128.35314941406
+2021-12-02 14:07:16,867 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:07:23,670 - ner.py[line:263] - INFO: ----------the best f1 is 0.20202020202020202---------
+2021-12-02 14:07:23,914 - ner.py[line:273] - INFO: epoch 10, train loss: 64141.29504394531
+2021-12-02 14:10:29,037 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:10:35,644 - ner.py[line:263] - INFO: ----------the best f1 is 0.2982456140350877---------
+2021-12-02 14:10:35,886 - ner.py[line:273] - INFO: epoch 11, train loss: 66670.88784790039
+2021-12-02 14:13:49,970 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:13:57,036 - ner.py[line:263] - INFO: ----------the best f1 is 0.3423423423423423---------
+2021-12-02 14:13:57,276 - ner.py[line:273] - INFO: epoch 12, train loss: 68918.9213256836
+2021-12-02 14:17:05,686 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:17:11,591 - ner.py[line:263] - INFO: ----------the best f1 is 0.38983050847457623---------
+2021-12-02 14:17:11,832 - ner.py[line:273] - INFO: epoch 13, train loss: 70934.68328857422
+2021-12-02 14:20:23,239 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:20:30,263 - ner.py[line:273] - INFO: epoch 14, train loss: 72804.14492797852
+2021-12-02 14:24:10,598 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:24:19,132 - ner.py[line:263] - INFO: ----------the best f1 is 0.47457627118644063---------
+2021-12-02 14:24:19,374 - ner.py[line:273] - INFO: epoch 15, train loss: 74516.02812194824
+2021-12-02 14:27:44,529 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:27:52,383 - ner.py[line:263] - INFO: ----------the best f1 is 0.59375---------
+2021-12-02 14:27:52,622 - ner.py[line:273] - INFO: epoch 16, train loss: 76125.04666137695
+2021-12-02 14:31:23,651 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:31:32,988 - ner.py[line:273] - INFO: epoch 17, train loss: 77640.46067810059
+2021-12-02 14:34:56,343 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:35:04,127 - ner.py[line:273] - INFO: epoch 18, train loss: 79076.62157440186
+2021-12-02 14:37:47,829 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 14:37:47,830 - application.py[line:90] - INFO:  Num examples = 2
+2021-12-02 14:37:47,830 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 14:37:47,831 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 14:38:23,601 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:38:28,416 - ner.py[line:263] - INFO: ----------the best f1 is 0.5967741935483871---------
+2021-12-02 14:38:28,658 - ner.py[line:273] - INFO: epoch 19, train loss: 80448.16176605225
+2021-12-02 14:40:45,405 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:40:50,224 - ner.py[line:263] - INFO: ----------the best f1 is 0.6290322580645161---------
+2021-12-02 14:40:50,457 - ner.py[line:273] - INFO: epoch 20, train loss: 81753.07294464111
+2021-12-02 14:43:04,258 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:43:09,106 - ner.py[line:263] - INFO: ----------the best f1 is 0.6612903225806451---------
+2021-12-02 14:43:09,345 - ner.py[line:273] - INFO: epoch 21, train loss: 82990.60187530518
+2021-12-02 14:45:25,285 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:45:30,071 - ner.py[line:273] - INFO: epoch 22, train loss: 84183.60271453857
+2021-12-02 14:47:46,926 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:47:51,343 - ner.py[line:263] - INFO: ----------the best f1 is 0.6885245901639344---------
+2021-12-02 14:47:51,582 - ner.py[line:273] - INFO: epoch 23, train loss: 85330.90503692627
+2021-12-02 14:50:10,625 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:50:15,546 - ner.py[line:273] - INFO: epoch 24, train loss: 86433.66539001465
+2021-12-02 14:52:31,343 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:52:36,148 - ner.py[line:273] - INFO: epoch 25, train loss: 87496.2152633667
+2021-12-02 14:54:51,111 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:54:55,941 - ner.py[line:273] - INFO: epoch 26, train loss: 88535.34886932373
+2021-12-02 14:57:09,668 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:57:14,568 - ner.py[line:273] - INFO: epoch 27, train loss: 89547.20252227783
+2021-12-02 14:59:32,583 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 14:59:37,372 - ner.py[line:273] - INFO: epoch 28, train loss: 90535.24034881592
+2021-12-02 15:01:54,228 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:01:59,345 - ner.py[line:273] - INFO: epoch 29, train loss: 91501.7225189209
+2021-12-02 15:04:13,754 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:04:18,214 - ner.py[line:273] - INFO: epoch 30, train loss: 92447.99906158447
+2021-12-02 15:06:33,181 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:06:38,058 - ner.py[line:273] - INFO: epoch 31, train loss: 93374.68785858154
+2021-12-02 15:08:52,878 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:08:59,279 - ner.py[line:273] - INFO: epoch 32, train loss: 94289.84841918945
+2021-12-02 15:11:15,866 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:11:20,625 - ner.py[line:273] - INFO: epoch 33, train loss: 95188.26194000244
+2021-12-02 15:13:39,587 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:13:44,421 - ner.py[line:273] - INFO: epoch 34, train loss: 96070.2548751831
+2021-12-02 15:15:59,898 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:16:04,714 - ner.py[line:273] - INFO: epoch 35, train loss: 96944.7432937622
+2021-12-02 15:18:20,134 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:18:25,307 - ner.py[line:273] - INFO: epoch 36, train loss: 97811.18611907959
+2021-12-02 15:20:40,554 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:20:44,925 - ner.py[line:273] - INFO: epoch 37, train loss: 98667.68814086914
+2021-12-02 15:22:59,777 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:23:04,623 - ner.py[line:273] - INFO: epoch 38, train loss: 99524.07781982422
+2021-12-02 15:25:23,490 - ner.py[line:59] - INFO: ***** Running eval *****
+2021-12-02 15:25:28,427 - ner.py[line:273] - INFO: epoch 39, train loss: 100376.57869720459
+2021-12-02 15:25:29,156 - ner.py[line:296] - INFO: ***** Running test *****
+2021-12-02 15:25:29,156 - ner.py[line:297] - INFO:  Num examples = 44
+2021-12-02 15:25:29,156 - ner.py[line:298] - INFO:  Batch size = 8
+2021-12-02 15:28:11,189 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:28:11,190 - application.py[line:90] - INFO:  Num examples = 3
+2021-12-02 15:28:11,190 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:28:11,191 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:28:54,784 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:28:54,784 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:28:54,784 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:28:54,785 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:37:28,773 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:37:28,773 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:37:28,773 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:37:28,774 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:37:51,148 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:37:51,148 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:37:51,148 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:37:51,149 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:38:35,693 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:38:35,693 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:38:35,694 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:38:35,704 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:38:50,008 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:38:50,008 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:38:50,008 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:38:50,012 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:39:28,233 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:39:28,233 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:39:28,233 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:39:28,237 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:40:50,501 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:40:50,501 - application.py[line:90] - INFO:  Num examples = 1
+2021-12-02 15:40:50,501 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:40:50,506 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:41:34,675 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:41:34,675 - application.py[line:90] - INFO:  Num examples = 2
+2021-12-02 15:41:34,675 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:41:34,676 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:42:25,180 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:42:25,180 - application.py[line:90] - INFO:  Num examples = 2
+2021-12-02 15:42:25,180 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:42:25,181 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:43:32,988 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:43:32,988 - application.py[line:90] - INFO:  Num examples = 2
+2021-12-02 15:43:32,988 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:43:32,989 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 15:44:17,863 - application.py[line:89] - INFO: ***** Running test *****
+2021-12-02 15:44:17,863 - application.py[line:90] - INFO:  Num examples = 3
+2021-12-02 15:44:17,863 - application.py[line:91] - INFO:  Batch size = 8
+2021-12-02 15:44:17,864 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:00:18,370 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:00:18,370 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:00:18,370 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:00:18,371 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:00:32,553 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:00:32,554 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:00:32,554 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:00:32,555 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:00:57,087 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:00:57,087 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:00:57,087 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:00:57,091 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:07:27,821 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:07:27,821 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:07:27,821 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:07:27,825 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:09:10,033 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:09:10,033 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:09:10,033 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:09:10,037 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:10:03,475 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:10:03,476 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:10:03,476 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:10:03,480 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:11:36,093 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:11:36,094 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:11:36,094 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:11:36,098 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:16:08,631 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:16:08,631 - application.py[line:97] - INFO:  Num examples = 3
+2021-12-02 16:16:08,631 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:16:08,632 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:17:44,202 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:17:44,202 - application.py[line:97] - INFO:  Num examples = 4
+2021-12-02 16:17:44,202 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:17:44,203 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:19:59,892 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:19:59,892 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:19:59,892 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:19:59,893 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:20:50,077 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:20:50,077 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:20:50,077 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:20:50,078 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:21:27,091 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:21:27,091 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:21:27,091 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:21:27,092 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:21:50,938 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:21:50,939 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:21:50,939 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:21:50,940 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:22:41,540 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:22:41,540 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:22:41,541 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:22:41,542 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:23:36,984 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:23:36,984 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:23:36,984 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:23:36,988 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:26:05,395 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:26:05,395 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:26:05,395 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:26:05,396 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:28:51,564 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:28:51,565 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:28:51,565 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:28:51,566 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:30:25,032 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:30:25,032 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:30:25,032 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:30:25,033 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:30:56,398 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:30:56,399 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:30:56,399 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:30:56,403 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:34:04,253 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:34:04,253 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:34:04,253 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:34:04,255 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 16:35:38,146 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 16:35:38,147 - application.py[line:97] - INFO:  Num examples = 5
+2021-12-02 16:35:38,147 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 16:35:38,148 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 18:40:54,497 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 18:40:54,497 - application.py[line:97] - INFO:  Num examples = 6
+2021-12-02 18:40:54,497 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 18:40:54,498 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 18:42:30,409 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 18:42:30,409 - application.py[line:97] - INFO:  Num examples = 7
+2021-12-02 18:42:30,409 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 18:42:30,410 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 18:43:57,922 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 18:43:57,922 - application.py[line:97] - INFO:  Num examples = 8
+2021-12-02 18:43:57,922 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 18:43:57,923 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 18:44:41,960 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 18:44:41,961 - application.py[line:97] - INFO:  Num examples = 8
+2021-12-02 18:44:41,961 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 18:44:41,962 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-02 18:53:35,019 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-02 18:53:35,020 - application.py[line:97] - INFO:  Num examples = 9
+2021-12-02 18:53:35,020 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-02 18:53:35,021 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-03 08:06:31,703 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-03 08:06:31,704 - application.py[line:97] - INFO:  Num examples = 9
+2021-12-03 08:06:31,704 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-03 08:06:31,705 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-03 08:07:31,877 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-03 08:07:31,877 - application.py[line:97] - INFO:  Num examples = 9
+2021-12-03 08:07:31,877 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-03 08:07:31,878 - utils.py[line:73] - INFO: loading labels info from data/output
+2021-12-03 08:08:09,422 - application.py[line:96] - INFO: ***** Running test *****
+2021-12-03 08:08:09,423 - application.py[line:97] - INFO:  Num examples = 9
+2021-12-03 08:08:09,423 - application.py[line:98] - INFO:  Batch size = 8
+2021-12-03 08:08:09,424 - utils.py[line:73] - INFO: loading labels info from data/output

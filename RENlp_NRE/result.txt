@@ -1,0 +1,94 @@
+"D:\Program Files\conda\envs\python38\python.exe" D:/Tools/pythonProject/NLP/NRE_PyTorch/application.py
+load vocab in data/out\vocab.pkl
+load train data in data/out\train.pkl
+load test data in data/out\test.pkl
+CNN(
+  (embedding): Embedding(
+    (word_embed): Embedding(6618, 300, padding_idx=0)
+    (head_pos_embed): Embedding(102, 10, padding_idx=0)
+    (tail_pos_embed): Embedding(102, 10, padding_idx=0)
+  )
+  (convs): ModuleList(
+    (0): Conv1d(320, 100, kernel_size=(3,), stride=(1,), padding=(1,), bias=False)
+    (1): Conv1d(320, 100, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+  )
+  (fc1): Linear(in_features=200, out_features=100, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (fc2): Linear(in_features=100, out_features=10, bias=True)
+)
+******************开始训练*********************
+Traing epoch:1[0/4000(0%)]	Loss:2.353209
+Traing epoch:1[1280/4000(32%)]	Loss:1.917019
+Traing epoch:1[2560/4000(65%)]	Loss:1.228476
+Traing epoch:1[3840/4000(97%)]	Loss:0.896517
+D:\Program Files\conda\envs\python38\lib\site-packages\sklearn\metrics\_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+macro metrics:[p：0.6951, r:0.7679, f1:0.7155]
+micro metrics:[p：0.7701, r:0.7701, f1:0.7701]
+model_file/Nre_CNN_epoch1_1029_15_49_06.pth
+Traing epoch:2[0/4000(0%)]	Loss:0.884074
+Traing epoch:2[1280/4000(32%)]	Loss:0.316372
+Traing epoch:2[2560/4000(65%)]	Loss:0.158699
+Traing epoch:2[3840/4000(97%)]	Loss:0.126616
+macro metrics:[p：0.9767, r:0.9743, f1:0.9738]
+micro metrics:[p：0.9743, r:0.9743, f1:0.9743]
+model_file/Nre_CNN_epoch2_1029_15_49_16.pth
+Traing epoch:3[0/4000(0%)]	Loss:0.178312
+Traing epoch:3[1280/4000(32%)]	Loss:0.083779
+Traing epoch:3[2560/4000(65%)]	Loss:0.038342
+Traing epoch:3[3840/4000(97%)]	Loss:0.073579
+macro metrics:[p：0.9714, r:0.9714, f1:0.9714]
+micro metrics:[p：0.9710, r:0.9710, f1:0.9710]
+model_file/Nre_CNN_epoch3_1029_15_49_26.pth
+Traing epoch:4[0/4000(0%)]	Loss:0.029621
+Traing epoch:4[1280/4000(32%)]	Loss:0.093907
+Traing epoch:4[2560/4000(65%)]	Loss:0.043705
+Traing epoch:4[3840/4000(97%)]	Loss:0.046075
+macro metrics:[p：0.9745, r:0.9736, f1:0.9733]
+micro metrics:[p：0.9732, r:0.9732, f1:0.9732]
+model_file/Nre_CNN_epoch4_1029_15_49_36.pth
+Traing epoch:5[0/4000(0%)]	Loss:0.047735
+Traing epoch:5[1280/4000(32%)]	Loss:0.030582
+Traing epoch:5[2560/4000(65%)]	Loss:0.016240
+Traing epoch:5[3840/4000(97%)]	Loss:0.055895
+macro metrics:[p：0.9790, r:0.9759, f1:0.9766]
+micro metrics:[p：0.9777, r:0.9777, f1:0.9777]
+model_file/Nre_CNN_epoch5_1029_15_49_46.pth
+Traing epoch:6[0/4000(0%)]	Loss:0.014059
+Traing epoch:6[1280/4000(32%)]	Loss:0.010412
+Traing epoch:6[2560/4000(65%)]	Loss:0.043719
+Traing epoch:6[3840/4000(97%)]	Loss:0.057498
+macro metrics:[p：0.9731, r:0.9721, f1:0.9721]
+micro metrics:[p：0.9710, r:0.9710, f1:0.9710]
+model_file/Nre_CNN_epoch6_1029_15_49_57.pth
+Traing epoch:7[0/4000(0%)]	Loss:0.010516
+Traing epoch:7[1280/4000(32%)]	Loss:0.054837
+Traing epoch:7[2560/4000(65%)]	Loss:0.057203
+Traing epoch:7[3840/4000(97%)]	Loss:0.033634
+macro metrics:[p：0.9698, r:0.9697, f1:0.9696]
+micro metrics:[p：0.9688, r:0.9688, f1:0.9688]
+model_file/Nre_CNN_epoch7_1029_15_50_08.pth
+Traing epoch:8[0/4000(0%)]	Loss:0.011225
+Traing epoch:8[1280/4000(32%)]	Loss:0.025281
+Traing epoch:8[2560/4000(65%)]	Loss:0.004854
+Traing epoch:8[3840/4000(97%)]	Loss:0.004213
+macro metrics:[p：0.9705, r:0.9701, f1:0.9701]
+micro metrics:[p：0.9710, r:0.9710, f1:0.9710]
+model_file/Nre_CNN_epoch8_1029_15_50_19.pth
+Traing epoch:9[0/4000(0%)]	Loss:0.006049
+Traing epoch:9[1280/4000(32%)]	Loss:0.005388
+Traing epoch:9[2560/4000(65%)]	Loss:0.017757
+Traing epoch:9[3840/4000(97%)]	Loss:0.028200
+macro metrics:[p：0.9772, r:0.9754, f1:0.9748]
+micro metrics:[p：0.9743, r:0.9743, f1:0.9743]
+model_file/Nre_CNN_epoch9_1029_15_50_30.pth
+Traing epoch:10[0/4000(0%)]	Loss:0.015970
+Traing epoch:10[1280/4000(32%)]	Loss:0.098987
+Traing epoch:10[2560/4000(65%)]	Loss:0.008632
+Traing epoch:10[3840/4000(97%)]	Loss:0.016445
+macro metrics:[p：0.9749, r:0.9727, f1:0.9730]
+micro metrics:[p：0.9721, r:0.9721, f1:0.9721]
+model_file/Nre_CNN_epoch10_1029_15_50_41.pth
+*****************模型训练完成*********************
+best macro f1:0.9766 in epoch:5, saved in : model_file/Nre_CNN_epoch5_1029_15_49_46.pth
+best micro f1:0.9777 in epoch:5, saved in : model_file/Nre_CNN_epoch5_1029_15_49_46.pth
